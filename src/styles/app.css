@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@source '../**/*.vue';
+@source '../../resources/views/**/*.php';
+@source '../../storage/framework/views/*.php';
+
+:root {
+  color-scheme: light;
+  --color-brand: #1d4ed8;
+  --color-surface: #ffffff;
+  --color-background: #f8fafc;
+  --color-text: #172033;
+  --color-text-muted: #64748b;
+  --color-border: #dbe2ea;
+  --color-danger: #b42318;
+  --color-danger-soft: #fff1f0;
+  --color-danger-border: #fecdca;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+}
